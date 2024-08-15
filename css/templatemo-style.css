@@ -106,7 +106,7 @@ a:hover {
   min-height: 1197px;
 }
 
-.tm-welcome-container {
+.tm-resume-container {
   min-height: 400px;
   position: absolute;
   bottom: 0;
@@ -116,32 +116,41 @@ a:hover {
   align-items: stretch;
 }
 
-.tm-welcome-title {
+.tm-resume-title {
   margin-bottom: 40px;
 }
 
-.tm-welcome-left {
+.tm-resume-left {
   padding-right: 30px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.tm-welcome-left-col {
+.tm-resume-left-col {
   display: flex;
   align-items: center;
 }
 
-.tm-welcome-right {
+.tm-resume-right {
   color: white;
   background-color: #986665;
   padding: 80px 43px 70px;
   height: 100%;
+  text-align: center;
 }
 
-.tm-welcome-icon {
+.tm-resume-icon {
   margin-bottom: 50px;
   display: block;
   text-align: center;
+}
+
+.tm-resume-link {
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
 }
 
 /*
