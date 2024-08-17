@@ -26,7 +26,7 @@ body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
-  color: #6b6b6b;
+  color: #312c2c;
   overflow-x: hidden;
 }
 
@@ -44,27 +44,35 @@ a:hover {
 }
 
 .tm-bg-black-transparent {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(19, 18, 18, 0.778);
 }
 
 .tm-bg-white-transparent {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.tm-bg-green {
-  background-color: #98cb00;
+.tm-bg-peach {
+  background-color: #FFD1BA;
 }
 
-.tm-bg-orange {
-  background-color: #cc6733;
+.tm-bg-gold {
+  background-color: #E8C07D;
 }
 
-.tm-bg-blue {
-  background-color: #3398cc;
+.tm-bg-rust {
+  background-color: #D08C60;
 }
 
-.tm-bg-dark-gray {
-  background-color: #676767;
+.tm-bg-rose {
+  background-color: #F4C2C2;
+}
+
+.tm-bg-sage {
+  background-color: #BCBFA3;
+}
+
+.tm-bg-beige {
+  background-color: #F5E3C3;
 }
 
 /*
@@ -133,7 +141,7 @@ a:hover {
 
 .tm-resume-right {
   color: white;
-  background-color: #986665;
+  background-color: #865336a8;
   padding: 80px 43px 70px;
   height: 100%;
   text-align: center;
@@ -151,6 +159,13 @@ a:hover {
   border-radius: 5px;
   display: inline-block;
   margin-top: 10px;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /*
@@ -226,6 +241,7 @@ p {
   margin-right: 35px;
   background-color: white;
   padding: 54px 34px 44px;
+  text-align: center;
 }
 
 .tm-contact-item:last-child {
@@ -252,6 +268,11 @@ p {
   max-width: 680px;
   padding: 45px 45px 30px;
   margin-bottom: 95px;
+}
+
+.inside-url {
+  color: inherit;
+  text-decoration: none;
 }
 
 .form-group {
